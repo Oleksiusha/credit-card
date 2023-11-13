@@ -1,0 +1,66 @@
+<div id='cover'>
+  <div id='blueRight'>
+    <div id='dire'>
+      DIRE STRAITS
+    </div>
+    <div id='circle'>
+    </div>
+    <div id='makingMovies'>
+      MAKING MOVIES
+    </div>
+  </div>
+</div>
+
+
+  #cover{
+ 	width:500px;
+  height:500px;
+  margin:0px auto;
+  background-color:#ad0101;
+  box-shadow: 6px 1px 18px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 6px 1px 18px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 6px 1px 18px rgba(0, 0, 0, 0.76);
+}
+
+#blueRight{
+  height:500px;
+  width:50px;
+  position:relative;
+	background-color:#0095b3;
+  float:right;
+}
+
+#circle{
+  width:65px;
+  height:65px;
+  border-radius:50px;
+  position:absolute;
+  background-color:#0095b3;
+  right:10px;
+  top:210px
+}
+
+#dire{
+  color:white;
+  font-family:helvetica;
+  font-weight:500;
+  -webkit-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg);	
+  font-size:20px;
+	width:200px;
+  margin-top:40px;
+  padding-top:160px;
+}
+
+#makingMovies{
+  color:white;
+  font-family:helvetica;
+  font-weight:500;
+  width:250px;
+  position:absolute;
+  -webkit-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg);	
+	font-size:20px;
+  top:420px;
+  right:-96px;
+}
